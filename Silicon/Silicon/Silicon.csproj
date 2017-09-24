@@ -41,10 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DirectedGraph.cs" />
+    <Compile Include="Graph\DirectedGraph.cs" />
     <Compile Include="Graph\Graph.cs" />
     <Compile Include="Graph\GraphBase.cs" />
-    <Compile Include="Graph\Network.cs" />
+    <Compile Include="Network.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
